@@ -38,13 +38,7 @@ const App = () => {
         </div>
         {/* cards */}
         <div className="flex gap-4 items-center w-full flex-wrap">
-          <div className="grid grid-cols-1 lg:grid-cols-3  gap-4 w-full">
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4 w-full">
             <ProjectCard />
           </div>
         </div>
